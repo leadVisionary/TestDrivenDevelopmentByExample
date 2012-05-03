@@ -19,3 +19,10 @@ Scenario: In order to be able to trade currency internationally
 	Given: I have $5
 	When : I multiply it by 2
 	Then: The result should be $10
+	
+	Scenario: Account for taxes
+	In order to be able to account for taxes
+	As an investor
+	When I multiply my money by a number, the the result should be discounted by the tax rate
+	
+	
