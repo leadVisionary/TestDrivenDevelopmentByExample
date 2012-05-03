@@ -6,7 +6,7 @@ public class MoneyTest {
     public void addFiveDollarsAndTenFrancs() {
         // Given : I have $5 and 10 CHF 
         
-        Franc 
+        
         // And : The exchange rate is 2:1
         
         // When: I add the two together
